@@ -1,3 +1,5 @@
+.DS_Store
+
 # IDEs
 .idea/
 .vscode
@@ -10,3 +12,4 @@ node_modules/
 go.sum
 .hugo_build.lock
 _preview
+
