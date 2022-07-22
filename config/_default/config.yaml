@@ -3,14 +3,33 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Academic # Website name
-baseURL: 'https://example.com/' # Website URL
+title: Führung in Transformation # Website name
+baseURL: 'https://fuehrung.info/' # Website URL
+
+params:
+    author: Christian Renz
+    description: '<![CDATA[
+<p>Hallo! Ich bin Christian Renz.</p>
+<p>Als Führungskraft ist es meine Leidenschaft, Menschen und Organisationen in die Erreichung
+gemeinsamer Ziele zu führen und ihnen dabei zu helfen, sich weiter zu entwickeln. Besonders spannend
+sind Zeiten des Umbruchs: Wo sich das Umfeld oder in der Organisation Dinge so stark entwickeln, dass die
+bisherigen Vorgehensweisen nicht mehr tragen, muss sich die Organisation weiterentwickeln – sich in eine
+neue Form transformieren. Dabei habe ich gelernt: Führung beginnt immer bei mir als Person.</p>
+
+<p>In meinem Podcast treffe ich Menschen, die Transformation erleben und Menschen in der Transformation
+führen. Ich möchte an ihren Erfahrungen teilhaben, mir Tips und Antworten auf konkrete Fragestellungen
+holen und mich von ihnen als Personen inspirieren lassen.</p>
+]]>
+'
+    iTunes_Category: 'Business'
+    iTunes_Subcategory: 'Management'
+
 
 ############################
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
+defaultContentLanguage: de
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
@@ -36,12 +55,14 @@ enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
-  event: '/talk/:slug/'
-  tags: '/tag/:slug/'
-  categories: '/category/:slug/'
-  publication_types: '/publication-type/:slug/'
+  episode: '/episode/:slug/'
+#  event: '/talk/:slug/'
+#  tags: '/tag/:slug/'
+#  categories: '/category/:slug/'
+#  publication_types: '/publication-type/:slug/'
 disableAliases: true
 outputs:
+#  home: [] # [HTML, RSS, JSON, WebAppManifest, headers, redirects]
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
   section: [HTML, RSS]
 imaging:
@@ -69,3 +90,11 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+
+# Configuration for episodes
+cascade:
+  - _target:
+      path: /episode/**
+    profile: false
+    pager: true
+    isEpisode: true

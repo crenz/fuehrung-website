@@ -1,0 +1,42 @@
+{{- /* Generate RSS v2 for episodes only with summary only. */ -}}
+{{- /* Upstream Hugo bug - RSS dates can be in future: https://github.com/gohugoio/hugo/issues/3918 */ -}}
+{{- $page_context := cond .IsHome site . -}}
+{{- /* Generate feed only for episodes (and condition: kind must be page and type must be episode) */ -}}
+{{- /* {{- $pages := $page_context.RegularPages -}} */ -}}
+{{- $pages := where (where site.Pages "Type" "episode") "Kind" "page" -}}
+{{- $limit := site.Config.Services.RSS.Limit -}}
+{{- if ge $limit 1 -}}
+  {{- $pages = $pages | first $limit -}}
+{{- end -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\" ?>" | safeHTML }}
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>{{ if ne .Title site.Title }}{{ with .Title }}{{.}} | {{ end }}{{end}}{{ site.Title }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>{{ $.Site.Params.Description }}</description>
+    <itunes:category text="{{ $.Site.Params.iTunes_Category }}"> <itunes:category text="{{ $.Site.Params.iTunes_Subcategory }}" /></itunes:category>
+    <generator>Wowchemy (https://wowchemy.com)</generator>
+    {{- with site.LanguageCode }}<language>{{.}}</language>{{end -}}
+    {{- with site.Copyright }}<copyright>{{ replace (replace . "{year}" now.Year) "&copy;" "©" | plainify }}</copyright>{{end -}}
+    {{- if not .Date.IsZero }}<lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end -}}
+    {{- if .Scratch.Get "og_image" }}
+    <image>
+      <url>{{ .Scratch.Get "og_image" }}</url>
+      <title>{{ .Title | default site.Title }}</title>
+      <link>{{ .Permalink }}</link>
+    </image>
+    {{end -}}
+    {{ range $pages }}
+    <item>
+      <kind>{{ .Kind }}</kind>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      <guid>{{ .Permalink }}</guid>
+{{- /* <description>{{ .Content | html }}</description> */ -}}
+{{- /* Only include summary */ -}}
+      <description>{{ .Summary | html }}</description>
+    </item>
+    {{ end }}
+  </channel>
+</rss>
