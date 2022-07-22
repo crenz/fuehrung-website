@@ -31,10 +31,10 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-hugomod-
   
-      - name: Hugo: Build Preview
+      - name: Hugo - Build Preview
         run: hugo -d _preview --cleanDestinationDir --gc --minify --buildFuture -D
 
-      - name: rsync deployments
+      - name: Rsync - Deploy Preview
         uses: burnett01/rsync-deployments@5.2
         with:
           switches: -avzr --delete
