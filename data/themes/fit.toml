@@ -9,7 +9,7 @@ name = "FIT"
 #  menu_primary = "#fff"
   menu_primary = "#FCB827"
   menu_text = "#34495e"
-  menu_text_active = "#2962ff"
+  menu_text_active = "#55c"
   menu_title = "#2b2b2b"
 
 #  menu_primary = "#ff9400"
