@@ -1,0 +1,43 @@
+name: DeployProduction
+
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.93.2'
+          extended: true
+  
+      - uses: actions/cache@v2
+        with:
+          path: /tmp/hugo_cache
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugomod-
+  
+      - name: Hugo - Build Production
+        run: hugo -d _production --cleanDestinationDir --gc --minify
+
+      - name: Rsync - Deploy Preview
+        uses: burnett01/rsync-deployments@5.2
+        with:
+          switches: -avzr --delete
+          path: _production/
+          remote_path: ${{ secrets.DEPLOY_PRODUCTION_PATH }}
+          remote_host: ${{ secrets.DEPLOY_PRODUCTION_HOST }}
+          remote_port: ${{ secrets.DEPLOY_PRODUCTION_PORT }}
+          remote_user: ${{ secrets.DEPLOY_PRODUCTION_USER }}
+          remote_key: ${{ secrets.DEPLOY_PRODUCTION_KEY }}
