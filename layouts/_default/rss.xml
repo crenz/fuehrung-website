@@ -14,7 +14,7 @@
   <channel>
     <title>{{ if ne .Title site.Title }}{{ with .Title }}{{.}} | {{ end }}{{end}}{{ site.Title }}</title>
     <link>{{ .Permalink }}</link>
-    <description>{{ $.Site.Params.Description }}</description>
+    <description>{{ $.Site.Params.Description | safeHTML }}</description>
     <itunes:image href="{{ .Permalink }}{{ $.Site.Params.iTunes_Artwork }}" />
     <itunes:category text="{{ $.Site.Params.iTunes_Category }}"> <itunes:category text="{{ $.Site.Params.iTunes_Subcategory }}" /></itunes:category>
     <itunes:explicit>false</itunes:explicit>
