@@ -42,4 +42,6 @@ design:
   #   4 = Citation (publication only)
   view: 2
   columns: '2'
+  spacing:
+    padding: ["4em", "0", "4em", "0"]
 ---

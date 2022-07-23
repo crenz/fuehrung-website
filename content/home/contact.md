@@ -30,4 +30,6 @@ content:
 
 design:
   columns: '2'
+  spacing:
+    padding: ["4em", "0", "4em", "0"]
 ---
