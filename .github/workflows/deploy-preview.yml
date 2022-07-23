@@ -32,7 +32,7 @@ jobs:
             ${{ runner.os }}-hugomod-
   
       - name: Hugo - Build Preview
-        run: hugo -d _preview --cleanDestinationDir --gc --minify --buildFuture -D
+        run: hugo -b http://preview.fuehrung.info/ -d _preview --cleanDestinationDir --gc --minify --buildFuture -D
 
       - name: Rsync - Deploy Preview
         uses: burnett01/rsync-deployments@5.2
