@@ -1,0 +1,22 @@
+{{- define "main" -}}
+{{ $uriAudio := printf "/audio/%s.mp3" .File.ContentBaseName }}
+
+<article class="article">
+
+  {{ partial "page_header" . }}
+
+  <div class="article-container">
+    <div class="article-style">
+        <p><em>{{ .Summary | html }}</em></p>
+        <audio controls >
+            <source src="{{ printf "%s" $uriAudio }}" type="audio/mpeg">
+        </audio>
+        {{ .Content }}
+    </div>
+
+    {{ partial "page_footer" . }}
+
+  </div>
+</article>
+
+{{- end -}}

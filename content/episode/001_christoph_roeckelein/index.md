@@ -1,28 +1,22 @@
 ---  
-title: "1. Christoph Röckelein: Durch Transformation zu einer neuen Haltung"
+title: "Christoph Röckelein: Durch Transformation zu einer neuen Haltung"
 date: "2022-07-25T00:00:00Z"
 
 summary: "Christoph Röckelein leitet das Freiburger Institut für Persönlichkeitsdidaktik. Als Executive Coach begleitet er außerdem Menschen in ihrer persönlichen Transformation. Ich spreche mit ihm darüber, warum das Thema Transformation uns gerade so stark beschäftigt und wo Change Management an seine Grenzen kommt. Und ich möchte wissen, wie er selbst Transformation in seinem Leben erlebt hat."
 
 tags: [Coach, Didaktik, Haltung, Lebendigkeit, Persönlichkeitsdidaktik]
 
-# Display this page in the Featured widget?
-#featured: true
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
-image:
-#  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  placement: 1
-  focal_point: "TopLeft"
-  preview_only: false
-
+links:
+  - icon_pack: fab
+    icon: apple
+    name: Apple Podcasts
+    url: 'https://example.com'
+  - icon_pack: fab
+    icon: spotify
+    name: Spotify
+    url: 'https://example.com'
 
 ---
-
-*Christoph Röckelein leitet das Freiburger Institut für Persönlichkeitsdidaktik. Als Executive Coach begleitet er außerdem Menschen in ihrer persönlichen Transformation. Ich spreche mit ihm darüber, warum das Thema Transformation uns gerade so stark beschäftigt und wo Change Management an seine Grenzen kommt. Und ich möchte wissen, wie er selbst Transformation in seinem Leben erlebt hat.*
-
-{{< audio src="/audio/fit_1_christoph_roeckelein.mp3" >}}
 
 **Gründer und Leiter des Freiburger Instituts für Persönlichkeitsdidaktik. Das ist schon mal ein langer Name. Herr Röckelein können Sie vielleicht kurz was dazu sagen: Was ist das für ein Institut? Womit beschäftigen Sie sich?**
 

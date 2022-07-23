@@ -41,3 +41,5 @@ Hallo! Ich bin Christian Renz.
 Als Führungskraft ist es meine Leidenschaft, Menschen und Organisationen in die Erreichung gemeinsamer Ziele zu führen und ihnen dabei zu helfen, sich weiter zu entwickeln. Besonders spannend sind Zeiten des Umbruchs: Wo sich das Umfeld oder in der Organisation Dinge so stark entwickeln, dass die bisherigen Vorgehensweisen nicht mehr tragen, muss sich die Organisation weiterentwickeln – sich in eine neue Form transformieren. Dabei habe ich gelernt: Führung beginnt immer bei mir als Person.
 
 In meinem Podcast treffe ich Menschen, die Transformation erleben und Menschen in der Transformation führen. Ich möchte an ihren Erfahrungen teilhaben, mir Tips und Antworten auf konkrete Fragestellungen holen und mich von ihnen als Personen inspirieren lassen.
+
+Du kannst alle Folgen des Podcasts hier auf dieser Website hören oder den Podcast bei [Apple]() oder [Spotify]() abonnieren.

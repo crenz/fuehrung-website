@@ -22,8 +22,8 @@ design:
 #    gradient_start: rgba(255, 148, 0, 0.1)
 #    gradient_end: rgba(255, 148, 0, 0.2)
     text_color_light: false
-  spacing:
-    padding: ["4em", "0", "0px", "0"]
+#  spacing:
+#    padding: ["4em", "0", "4em", "0"]
 
 #title: Biography
 

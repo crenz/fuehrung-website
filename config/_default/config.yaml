@@ -44,6 +44,10 @@ module:
   imports:
     - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5
     - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
+# Make static files available within assets
+  mounts:
+    - source: static
+      target: assets/static
 
 ############################
 ## ADVANCED
@@ -100,3 +104,8 @@ cascade:
     profile: false
     pager: true
     isEpisode: true
+    image:
+      placement: 1
+      focal_point: "TopLeft"
+      preview_only: false
+
