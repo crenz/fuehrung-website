@@ -22,6 +22,8 @@ links:
 
 ---
 
+> Hinweis: Ein weiteres Gespräch zwischen Christian Renz und Christoph Röckelein findet sich im [Podcast des Freiburger Instituts für Persönlichkeitsdidaktik](https://www.institut-roeckelein.de/podcast-folge-17-christian-renz-und-christoph-roeckelein/).
+
 **Gründer und Leiter des Freiburger Instituts für Persönlichkeitsdidaktik. Das ist schon mal ein langer Name. Herr Röckelein können Sie vielleicht kurz was dazu sagen: Was ist das für ein Institut? Womit beschäftigen Sie sich?**
 
 Ja, in diesem langen Titel sind viele Vokabeln drin, die man fast alle ein bisschen aufdröseln muss. Aber ich glaube, das Kernwort ist Persönlichkeitsdidaktik. Das ist eine Worterfindung, die an der Pädagogischen Hochschule Freiburg kreiert wurde, als ich da noch in der Forschung war und meine Promotion schon fertig hatte. Dabei geht es darum zu schauen: Was braucht es auf der Ebene der Persönlichkeitsentwicklung und im Kontext der Führungskräfteentwicklung noch neben dem Verhaltenstraining. Es ist eben nicht ein methodischer oder auch inhaltlicher Ansatz, sondern es ist die Persönlichkeit, die im Grunde erst etwas zur Wirkung kommen lässt. 
