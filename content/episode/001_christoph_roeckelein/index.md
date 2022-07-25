@@ -10,11 +10,11 @@ links:
   - icon_pack: fab
     icon: apple
     name: Apple Podcasts
-    url: 'https://example.com'
+    url: 'https://podcasts.apple.com/us/podcast/führung-in-transformation/id1636225485?i=1000571034223'
   - icon_pack: fab
     icon: spotify
     name: Spotify
-    url: 'https://example.com'
+    url: 'https://open.spotify.com/episode/4Irdr6zz3KjgfZzGtFdMgh?si=ed85fd7270c043d6'
 
 ---
 

@@ -42,4 +42,4 @@ Als Führungskraft ist es meine Leidenschaft, Menschen und Organisationen in die
 
 In meinem Podcast treffe ich Menschen, die Transformation erleben und Menschen in der Transformation führen. Ich möchte an ihren Erfahrungen teilhaben, mir Tips und Antworten auf konkrete Fragestellungen holen und mich von ihnen als Personen inspirieren lassen.
 
-Du kannst alle Folgen des Podcasts hier auf dieser Website hören oder den Podcast bei [Apple]() oder [Spotify]() abonnieren.
+Du kannst alle Folgen des Podcasts hier auf dieser Website hören oder den Podcast bei [Apple](https://podcasts.apple.com/us/podcast/führung-in-transformation/id1636225485) oder [Spotify](https://open.spotify.com/show/79oCnPstYRxrluVVME5NEj) abonnieren.
