@@ -15,6 +15,10 @@ links:
     icon: spotify
     name: Spotify
     url: 'https://open.spotify.com/episode/4Irdr6zz3KjgfZzGtFdMgh?si=ed85fd7270c043d6'
+  - icon_pack: fas
+    icon: browser
+    name: Institut für Persönlichkeitsdidaktik
+    url: 'https://www.institut-roeckelein.de'
 
 ---
 
