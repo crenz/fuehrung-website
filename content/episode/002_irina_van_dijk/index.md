@@ -2,6 +2,8 @@
 title: "Irina van Dijk: Gemeinsam Kommunikation trainieren"
 date: "2022-08-08T00:00:00Z"
 
+draft: true
+
 summary: "Irina van Dijk leitet das Performance Office bei Bosch Thermotechnik. Natürlich spricht sie hier nicht für ihren Arbeitgeber, sondern aus ihrer persönlichen Erfahrung in verschiedensten internationalen Stationen als Führungskraft heraus. Ich spreche mit ihr darüber, wie Transformation positiv gestaltet werden kann selbst wenn es wirtschaftlich ans Eingemachte geht. Und ich möchte wissen, wie sie selbst Energie für Führungsarbeit in der Transformation findet."
 
 tags: [Führungskraft, Kommunikation, Umbruch, Haltung, Restrukturierung]
