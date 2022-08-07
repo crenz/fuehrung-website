@@ -37,7 +37,7 @@ jobs:
       - name: Rsync - Deploy Preview
         uses: burnett01/rsync-deployments@5.2
         with:
-          switches: -avzr --delete
+          switches: -avvzr --delete
           path: _preview/
           remote_path: ${{ secrets.DEPLOY_PREVIEW_PATH }}
           remote_host: ${{ secrets.DEPLOY_PREVIEW_HOST }}
