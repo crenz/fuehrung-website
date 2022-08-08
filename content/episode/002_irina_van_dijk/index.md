@@ -6,15 +6,15 @@ summary: "Irina van Dijk leitet das Performance Office bei Bosch Thermotechnik. 
 
 tags: [Führungskraft, Kommunikation, Umbruch, Haltung, Restrukturierung]
 
-#links:
-#  - icon_pack: fab
-#    icon: apple
-#    name: Apple Podcasts
-#    url: 'https://example.com'
-#  - icon_pack: fab
-#    icon: spotify
-#    name: Spotify
-#    url: 'https://example.com'
+links:
+  - icon_pack: fab
+    icon: apple
+    name: Apple Podcasts
+    url: 'https://podcasts.apple.com/us/podcast/irina-van-dijk-gemeinsam-kommunikation-trainieren/id1636225485'
+  - icon_pack: fab
+    icon: spotify
+    name: Spotify
+    url: 'https://open.spotify.com/episode/1TdtthNauCLTL1Yzza1EQr?si=12738db89a3849ab'
 
 ---
 
