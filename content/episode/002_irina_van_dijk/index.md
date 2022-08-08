@@ -2,8 +2,6 @@
 title: "Irina van Dijk: Gemeinsam Kommunikation trainieren"
 date: "2022-08-08T00:00:00Z"
 
-draft: true
-
 summary: "Irina van Dijk leitet das Performance Office bei Bosch Thermotechnik. Natürlich spricht sie hier nicht für ihren Arbeitgeber, sondern aus ihrer persönlichen Erfahrung in verschiedensten internationalen Stationen als Führungskraft heraus. Ich spreche mit ihr darüber, wie Transformation positiv gestaltet werden kann selbst wenn es wirtschaftlich ans Eingemachte geht. Und ich möchte wissen, wie sie selbst Energie für Führungsarbeit in der Transformation findet."
 
 tags: [Führungskraft, Kommunikation, Umbruch, Haltung, Restrukturierung]
@@ -82,7 +80,7 @@ Ja.
 
 ***Gibt es ein konkretes Werkzeug oder eine Methode oder ein Buch, ein Impuls, der für dich und deine Führungsarbeit eine wichtige Stütze geworden ist?***
 
-Tatsächlich würde ich mir erlauben wollen, zwei Sachen zu sagen: Das eine ist die Arbeit mit mir selber. Um auch dieses nah bei sich bleiben zu gewährleisten ist natürlich der bestehende soziale Kreis, mit dem ich im Kontakt bin, aber eben auch das professionelle Angebot eines Coachings wichtig. Das ist so das eine, was ich gern nennen möchte, was für mich für Transformationsarbeiten eine ganz tolle Methode ist: Sich selbst als Person coachen zu lassen und/oder auch darüber nachzudenken, die Organisation und das Team in diesem Prozess auch begleiten zu lassen. Dann vielleicht noch, wie du auch beschrieben hast ein Tool oder ein Buch. Für mich ist es beispielsweise das Thema „Reinventing Organizations“. Ein Buch, in dem ganz schöne Beispiele drin sind. Für mich ist es die visuelle Form des Buches die tatsächlich total gut funktioniert. Da ist eher so ein bisschen „sketcheneering“ und visuell zusammengefasst, wie Organisationen ticken und was man da beachten muss. Das sind so die zwei Elemente Coaching und das Buch „Reinventing Organisations" visuell, die ich mitgeben würde“.
+Tatsächlich würde ich mir erlauben wollen, zwei Sachen zu sagen: Das eine ist die Arbeit mit mir selber. Um auch dieses nah bei sich bleiben zu gewährleisten ist natürlich der bestehende soziale Kreis, mit dem ich im Kontakt bin, aber eben auch das professionelle Angebot eines Coachings wichtig. Das ist so das eine, was ich gern nennen möchte, was für mich für Transformationsarbeiten eine ganz tolle Methode ist: Sich selbst als Person coachen zu lassen und/oder auch darüber nachzudenken, die Organisation und das Team in diesem Prozess auch begleiten zu lassen. Dann vielleicht noch, wie du auch beschrieben hast ein Tool oder ein Buch. Für mich ist es beispielsweise das Thema „Reinventing Organizations“. Ein Buch, in dem ganz schöne Beispiele drin sind. Für mich ist es die visuelle Form des Buches die tatsächlich total gut funktioniert. Da ist eher so ein bisschen „sketcheneering“ und visuell zusammengefasst, wie Organisationen ticken und was man da beachten muss. Das sind so die zwei Elemente Coaching und das Buch „Reinventing Organizations“ visuell, die ich mitgeben würde.
 
 ***Vielen Dank. Super konkret, super einsetzbar. Ja, nochmals danke für deinen Einblick und danke fürs Zuhören.***
 
